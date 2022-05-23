@@ -1,13 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.h1 {
+  margin: 10px 0;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
-  margin: 0;
+  padding: 10px;
+  background-color: cadetblue;
 }
+
 .input {
   display: flex;
   flex-direction: column;
 }
 .submitBtn {
   width: 100px;
+  margin-top: 10px;
+}
+
+.comment {
   margin-top: 10px;
 }
